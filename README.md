@@ -12,7 +12,7 @@ My main metrics is MASE with benchmark is a mean cancellation rate of training s
 
 The table below shows results of all models used (Traditional, Regression, KNN, Tree, Random Forest) on training set (In-sample Metrics) and on Testing set (Out-sample Metrics). 
 
-Example of result interpretation: **On Testing data, Combined Model reduced 80% of prediction error compared to Naive prediction for 1 to 7 days prior to Stay Date** (the night when customers stay at the hotel). 
+Example of result interpretation: **On Testing data, Combined Model reduced 79.03% of prediction error compared to Naive prediction for 1 to 7 days prior to Stay Date** (the night when customers stay at the hotel). 
 
 <img width="581" alt="Screen Shot 2019-12-20 at 6 35 16 PM" src="https://user-images.githubusercontent.com/45189309/71252369-5f868600-2357-11ea-929f-080c0abe0f3b.png">
 
