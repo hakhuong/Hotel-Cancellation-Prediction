@@ -1,6 +1,6 @@
 # Hotel-Cancellation-Prediction
 
-This is an academic project. My teammate and I forecasted cancellation rate for 2 hotels in NYC and ATL. This repo contains the models for NYC hotel (the hotel I was responsible for). The paper write-up includes report of both NYC and ATL hotel. 
+This is an academic project. My teammate and I forecasted cancellation rate for 2 hotels in NYC and ATL. I was responsible for NYC hotel EDA, data handling, and predictions. This repo contains only the models for NYC hotel. The paper write-up includes report of both NYC and ATL hotel. 
 
 In this project, I tried to predict the cancellation rate of an international hotel located in New York city. Since this hotel is of international scale, they have their bookings situation and cancellation pattern very different than middle and small scaled hotels. Their rooms are sold via multiple channels with different kind of contracts. The cancellation patterns also depend greatly on how the bookings were sold. 
 
