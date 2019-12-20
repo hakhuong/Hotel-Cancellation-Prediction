@@ -6,13 +6,21 @@ In this project, I tried to predict the cancellation rate of an international ho
 
 <img width="388" alt="Screen Shot 2019-12-20 at 6 29 47 PM" src="https://user-images.githubusercontent.com/45189309/71252101-a758dd80-2356-11ea-9557-f4cfb494cdd7.png">
 
-My main metrics is MASE with benchmark is a mean cancellation rate of training set as Naive prediction. The best performing model is Combined Model with the highest percentage of error reduction compared to Naive prediction. 
 
 # Result 
 
 The table below shows results of all models used (Traditional, Regression, KNN, Tree, Random Forest) on training set (In-sample Metrics) and on Testing set (Out-sample Metrics). 
 
-Example of result interpretation: **On Testing data, Combined Model reduced 79.03% of prediction error compared to Naive prediction for 1 to 7 days prior to Stay Date** (the night when customers stay at the hotel). 
+
+My main metrics is MASE with benchmark is a mean cancellation rate of training set as Naive prediction. The best performing model is Combined Model with the highest percentage of error reduction compared to Naive prediction. 
+
+**Example of result interpretation**: 
+
+MASE: On Testing data, Combined Model reduced 79.03% of prediction error compared to Naive prediction for 1 to 7 days prior to Stay Date (the night when customers stay at the hotel). 
+
+MAPE: On Testing data, Combined Model prediction is off by 2.91% on average in day 1 to 7 prior to Stay Date.
+
+MAE: On Testing data, Combined Model predicted with averaged error of 1.84 bookings that will survive in day 1 to 7 prior to Stay Date.
 
 <img width="581" alt="Screen Shot 2019-12-20 at 6 35 16 PM" src="https://user-images.githubusercontent.com/45189309/71252369-5f868600-2357-11ea-929f-080c0abe0f3b.png">
 
